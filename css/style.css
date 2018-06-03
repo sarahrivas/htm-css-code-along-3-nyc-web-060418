@@ -38,6 +38,14 @@ figcaption {
 }
 
 /* ID selector (only apply to one unique element per page) */
-#logo { /* select elements with id= "logo" */)
+
+#logo { /* select elements with id= "logo" */
   background: aqua;
 }
+
+/* Descendant Selector */
+#logo h1 {
+  /* selects h1s if inside the id="logo */"
+  font-family: 'Clicker Script', cursive;
+}
+
